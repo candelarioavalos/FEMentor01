@@ -1,0 +1,62 @@
+body {
+  
+  /*Color variables*/
+  --myVeryDarkBlue: hsl(233, 47%, 7%);
+  --myDarkDesaturatedBlue:  hsl(244, 38%, 16%);
+  --mySoftViolet: hsl(277, 64%, 61%);
+  --myWhite: hsl(0, 0%, 100%);
+  --myTransparentParagraphWhite:  hsla(0, 0%, 100%, 0.75);
+  --myTransparentHeadingsWhite: hsla(0, 0%, 100%, 0.6);
+  --myAttributionLinkColor: hsl(228, 45%, 44%);
+
+  background-color: var(--myVeryDarkBlue);
+  text-align: center;
+  font-size: 15px;
+  font-family: inter;
+
+}
+
+h1{
+  color: var(--myWhite);
+}
+
+p{
+  color: var(--myTransparentParagraphWhite);
+}
+
+#mainParagraph{
+  color: var(--myTransparentParagraphWhite);
+  padding: 30px;
+}
+
+.statsParagraph{
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: var(--myDarkDesaturatedBlue);
+  width: 330px;
+}
+
+#img1{
+  display: block;
+}
+
+#navAccent{
+  color: var(--mySoftViolet);
+  display: inline;
+}
+
+img{
+  width: 320px;
+}
+
+#attribution{
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+#attribution a {
+  color: var(--myAttributionLinkColor);
+}
