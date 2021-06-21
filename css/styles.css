@@ -1,5 +1,4 @@
-body {
-  
+:root{
   /*Color variables*/
   --myVeryDarkBlue: hsl(233, 47%, 7%);
   --myDarkDesaturatedBlue:  hsl(244, 38%, 16%);
@@ -8,38 +7,44 @@ body {
   --myTransparentParagraphWhite:  hsla(0, 0%, 100%, 0.75);
   --myTransparentHeadingsWhite: hsla(0, 0%, 100%, 0.6);
   --myAttributionLinkColor: hsl(228, 45%, 44%);
+}
 
+body {
   background-color: var(--myVeryDarkBlue);
-  text-align: center;
   font-size: 15px;
-  font-family: inter;
-
 }
 
 h1{
   color: var(--myWhite);
+  font-weight: 700;
 }
 
 p{
   color: var(--myTransparentParagraphWhite);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+#descriptionText{
+  font-family: 'Inter', sans-serif;
+}
+
+#statistics h1{
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 #mainParagraph{
   color: var(--myTransparentParagraphWhite);
-  padding: 30px;
 }
+
 
 .statsParagraph{
   text-transform: uppercase;
+  color: var(--myTransparentHeadingsWhite);
 }
 
-.card {
+#card {
   background-color: var(--myDarkDesaturatedBlue);
-  width: 330px;
-}
-
-#img1{
-  display: block;
 }
 
 #navAccent{
@@ -47,16 +52,13 @@ p{
   display: inline;
 }
 
-img{
-  width: 320px;
-}
-
 #attribution{
   font-size: 11px;
   text-align: center;
   color: white;
+  margin-top: 20px;
 }
 
-#attribution a {
+#attribution a{
   color: var(--myAttributionLinkColor);
 }

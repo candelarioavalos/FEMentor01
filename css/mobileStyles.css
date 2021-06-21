@@ -1,0 +1,38 @@
+/*Stylesheet for mobile device screens under 1440px of width*/
+
+body{
+	text-align: center;
+	padding: 80px 20px 50px 20px;
+	box-sizing: border-box;
+}
+
+#card{
+	
+	width: 100%;
+	float: center;
+	border-radius: 10px;
+}
+
+#imgOne img{
+  	width: 100%;
+  	height: auto;
+  	border-radius: 10px 10px 0 0;
+  	display: block;
+}
+
+#information{
+	display: flex;
+	flex-direction: column;
+  	padding: 25px;
+  	box-sizing: border-box;
+}
+
+ .statValues{
+  margin: 30px;
+  box-sizing: border-box;
+ }
+
+.statsParagraph{
+  	margin: -20px 0 20px 0;
+  	box-sizing: border-box;
+}
