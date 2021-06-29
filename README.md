@@ -77,7 +77,7 @@ I found so interesting the fact that I could give a better visual effect to an i
 
 - [w3schools.com](https://www.w3schools.com/) - This is the page where I have learned the most, they have a lot of easy to learn tutorials for web development and a lot of examples for every topic and language. I will keep studying at w3schools for a while, it is so exciting! Every time I need to see a code example, I search here first!
 
-- [stackoverflow.com](https://stackoverflow.com/) - This is definitely a must while coding, I google everything I have a question abut all the time, and stackoverflow is always one of the options with the possible answer. For example, the image div was getting higher than the image itself, and it didn't look nice, I googled for a tip, and I found in stackoverflow that the best way to avoid that, was to set the display property for the image as block, and that really helped me fix that, I know it is smething easy and basic, but really a headache for a beginner!
+- [stackoverflow.com](https://stackoverflow.com/) - This is definitely a must while coding, I google everything I have a question abut all the time, and stackoverflow is always one of the options with the possible answer. For example, the image div was getting higher than the image itself, and it didn't look nice, I googled for a tip, and I found in stackoverflow that the best way to avoid that, was to set the display property for the image as block, and that really helped me fixing the problem, I know it is something easy and basic, but really a headache for a beginner!
 
 ## Author
 
