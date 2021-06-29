@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/candelarioavalos/FEMentor01)
-- Live Site URL: [Add live site URL here](https://candelarioavalos.github.io/FEMentor01/)
+- Solution URL: [GitHub Project](https://github.com/candelarioavalos/FEMentor01)
+- Live Site URL: [GitHub Pages](https://candelarioavalos.github.io/FEMentor01/html/index.html)
 
 ## My process
 
