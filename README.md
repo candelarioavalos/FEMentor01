@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Phone screen size view](../images/resultPhone.jpg)
-![Desktop screen size view](../images/resultDesktop.jpg)
+![Phone screen size view](..\images\resultPhone.jpg)
+![Desktop screen size view](..\images\resultDesktop.jpg)
 
 
 ### Links
