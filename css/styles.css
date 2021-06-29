@@ -25,6 +25,10 @@ p{
   font-weight: 400;
 }
 
+#card{
+  background-color: var(--myDarkDesaturatedBlue);
+}
+
 #descriptionText{
   font-family: 'Inter', sans-serif;
 }
@@ -37,14 +41,9 @@ p{
   color: var(--myTransparentParagraphWhite);
 }
 
-
 .statsParagraph{
   text-transform: uppercase;
   color: var(--myTransparentHeadingsWhite);
-}
-
-#card {
-  background-color: var(--myDarkDesaturatedBlue);
 }
 
 #navAccent{

@@ -1,15 +1,4 @@
-/*Stylesheet for desktop screens from 1440px and over of width*/
-
-:root{
-  /*Color variables*/
-  --myVeryDarkBlue: hsl(233, 47%, 7%);
-  --myDarkDesaturatedBlue:  hsl(244, 38%, 16%);
-  --mySoftViolet: hsl(277, 64%, 61%);
-  --myWhite: hsl(0, 0%, 100%);
-  --myTransparentParagraphWhite:  hsla(0, 0%, 100%, 0.75);
-  --myTransparentHeadingsWhite: hsla(0, 0%, 100%, 0.6);
-  --myAttributionLinkColor: hsl(228, 45%, 44%);
-}
+/*Stylesheet for desktop screens from 1350px and over of width*/
 
 body{
 	padding: 150px;
@@ -25,21 +14,25 @@ body{
 	box-sizing: border-box;
 }
 
-#imgOne{
-  	float: right;
-  	width: 50%;
+#imgBackground{
+  float: right;
+  width: 50%;
+  background-color: darkviolet;
+  filter: brightness(0.7);
+  border-radius: 0 10px 10px 0;
 }
 
-#imgOne img{
+#imgBackground img{
 	width: 100%;
-	height: auto;
-  	border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+  opacity: 0.6;
 	display: block;
 }
 
 #information{
 	float: left;
 	width: 50%;
+	border-radius: 10px 0 0 10px;
 	display: inline-block;
 	box-sizing: border-box;
 }
@@ -65,7 +58,6 @@ body{
 	width: 100%;
 	padding: 0 50px 0 80px;
 	box-sizing: border-box;
-
 }
 
 .statValues{
@@ -75,4 +67,3 @@ body{
 .statsParagraph{
 	margin-top: -15px;
 }
-
